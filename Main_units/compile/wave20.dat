@@ -1,0 +1,67 @@
+$WAVE4TIMED
+$RESOLUTION 1000
+I 1 "e#9#std_logicc9 UX01ZWLH-"
+$IN 1 1 CLK
+$IN 1 0 CLK
+$IN 5 1 SET
+$IN 9 1 INC_HOUR
+$IN 1 0 CLK
+I 2 "a#28#std_logic_vector(4 downto 0)1 ricd4 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS IN 33 2 5 HOUR_IN
+$SC 13-29/4
+I 3 "a#28#std_logic_vector(5 downto 0)1 ricd5 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS IN 58 3 6 THERM_IN
+$SC 34-54/4
+$IN 5 0 SET
+$IN 9 0 INC_HOUR
+$IN 59 1 INC_TEMP
+$BUS OUT 83 2 5 DISPLAY_DATA_HOUR
+$SC 63-79/4
+$BUS OUT +29 3 6 13 0 TEMP
+$SC 84-+20/4
+$OUT +5 1 HEAT_ENABLE
+$ENDTIME 100000
+$WAVES 1
+=0 T 0
+R 1 2 =1 T 50k
+$VALUES
+V 3
+0
+1
+0
+$END
+$WAVES 109
+*0
+=2 D 50k 1
+$VALUES
+V 2
+U
+0
+$END
+$WAVES 5-29/4 +5-50/8 +4 +5
+*0
+$VALUES
+V 1
+0
+$END
+$WAVES 38 +8
+*0
+$VALUES
+V 1
+1
+$END
+$WAVES 63-79/4
+*0
+=3 D 0 1
+$VALUES
+V 2
+U
+0
+$END
+$WAVES +5-+20/4
+*0
+$VALUES
+V 1
+U
+$END
+$ENDWAVE

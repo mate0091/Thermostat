@@ -1,0 +1,72 @@
+$WAVE4TIMED
+$RESOLUTION 1000
+I 1 "e#9#std_logicc9 UX01ZWLH-"
+$IN 1 1 EN_HEAT
+$IN 5 1 CLK
+I 2 "a#28#std_logic_vector(7 downto 0)1 ricd7 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS OUT 41 2 8 THERM_OUT
+$SC 9-37/4
+$IN 5 0 CLK
+$IN 5 0 CLK
+$ENDTIME 100000
+$WAVES 1
+=0 T 0
+$VALUES
+V 1
+0
+$END
+$WAVES 37
+*0
+=1 D 0 1
+=2 D 50k 1
+$VALUES
+V 3
+U
+1
+0
+$END
+$WAVES 5
+*0
+R 1 2 =3 T 50k
+$VALUES
+V 3
+0
+1
+0
+$END
+$WAVES 9-33/4
+*0
+*1
+$VALUES
+V 2
+U
+0
+$END
+$ENDTIME 200000
+$WAVES 5
+=4 T 150k
+*3
+$VALUES
+V 2
+1
+0
+$END
+$WAVES 17
+=5 D 150k 1
+$VALUES
+V 1
+1
+$END
+$WAVES +4
+*5
+$VALUES
+V 1
+1
+$END
+$WAVES 33
+*5
+$VALUES
+V 1
+1
+$END
+$ENDWAVE

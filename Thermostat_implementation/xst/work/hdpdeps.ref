@@ -1,0 +1,15 @@
+V3 7
+FL "B:/projektek/Digital System Design/Thermostat/Thermostat_implementation/clock_div_test.vhd" 2018/05/02.13:24:44 P.20131013
+EN work/clk_div_test 1525256692 \
+      FL "B:/projektek/Digital System Design/Thermostat/Thermostat_implementation/clock_div_test.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/clk_div_test/logic 1525256693 \
+      FL "B:/projektek/Digital System Design/Thermostat/Thermostat_implementation/clock_div_test.vhd" \
+      EN work/clk_div_test 1525256692 CP freq_div_1hz
+FL "B:/projektek/Digital System Design/Thermostat/Thermostat_implementation/frequency_div.vhd" 2018/05/02.12:35:00 P.20131013
+EN work/freq_div_1hz 1525256690 \
+      FL "B:/projektek/Digital System Design/Thermostat/Thermostat_implementation/frequency_div.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/freq_div_1hz/logic 1525256691 \
+      FL "B:/projektek/Digital System Design/Thermostat/Thermostat_implementation/frequency_div.vhd" \
+      EN work/freq_div_1hz 1525256690

@@ -1,0 +1,2 @@
+vhdl work "frequency_div.vhd"
+vhdl work "clock_div_test.vhd"

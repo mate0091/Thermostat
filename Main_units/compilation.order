@@ -1,0 +1,11 @@
+.\src\Simulator.vhd
+.\src\hours_minutes.vhd
+.\src\prog.vhd
+.\src\debounce.vhd
+.\src\BCD_to_7seg.vhd
+.\src\helper_functions.vhd
+.\src\clock_divider.vhd
+.\src\segmentdriver.vhd
+.\src\frequency_div.vhd
+.\src\clock_div_test.vhd
+.\src\Selector.vhd

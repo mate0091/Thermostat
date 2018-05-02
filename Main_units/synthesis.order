@@ -1,0 +1,11 @@
+i<>.\src\Simulator.vhd
+i<>.\src\hours_minutes.vhd
+i<>.\src\prog.vhd
+i<>.\src\debounce.vhd
+i<>.\src\nexys3_BCD_to_7seg.vhd
+i<>.\src\helper_functions.vhd
+i<>.\src\clock_divider.vhd
+i<>.\src\segmentdriver.vhd
+i<>.\src\frequency_div.vhd
+i<>.\src\clock_div_test.vhd
+i<>.\src\Selector.vhd

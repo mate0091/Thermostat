@@ -1,0 +1,4 @@
+MESSAGE "File: b:\projektek\Digital System Design\Thermostat\Main_units\src\Selector.vhd" 
+MESSAGE "Compile Entity "selector"" 
+MESSAGE "Compile Architecture "logic" of Entity "selector"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]" 

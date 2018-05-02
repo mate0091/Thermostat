@@ -1,0 +1,25 @@
+$WAVE4
+$RESOLUTION 1000
+$ENDTIME 500000000000
+I 1 "e#9#std_logicc9 UX01ZWLH-"
+$IN 1 1 SET
+$IN 2 1 INC_HOUR
+$IN 3 1 INC_MIN
+$IN 4 1 CLK
+$IN 5 1 intCLK
+I 2 "a#28#std_logic_vector(7 downto 0)1 ricd7 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS OUT 6 2 8 HOUR
+$SC 7-+7
+$BUS OUT +1 2 8 MIN
+$SC +1-+7
+P 0 1-23 CS "0"
+P 0 5 Stimulator "CLK:FRM:Override:100.000000;2;1;0;50;1:Clock:0:"
+$WAVES 4
+=0 T 0
+R 1 50000000 =1 T 10k
+$VALUES
+R 2 25000000 0 1
+V 1
+0
+$END
+$ENDWAVE

@@ -1,0 +1,22 @@
+602
+~E 1 "./src/prog.vhd" 7 prog
+~A 1 "./src/prog.vhd" 20 def
+~E 1 "./src/frequency_div.vhd" 4 freq_div
+~A 1 "./src/frequency_div.vhd" 12 logic
+~E 1 "./src/clock_divider.vhd" 30 clock_divider
+~A 1 "./src/clock_divider.vhd" 41 logic
+~E 1 "./src/clock_div_test.vhd" 4 clk_div_test
+~A 1 "./src/clock_div_test.vhd" 11 logic
+~E 1 "./src/debounce.vhd" 6 debounce
+~A 1 "./src/debounce.vhd" 16 logic
+~E 1 "./src/hours_minutes.vhd" 6 h_m
+~A 1 "./src/hours_minutes.vhd" 15 def
+~E 1 "./src/frequency_div.vhd" 4 freq_div_1hz
+~A 1 "./src/frequency_div.vhd" 12 logic
+~E 1 "./src/BCD_to_7seg.vhd" 4 segmentdecoder
+~A 1 "./src/BCD_to_7seg.vhd" 16 logic
+~E 1 "./src/segmentdriver.vhd" 30 segment_driver
+~E 1 "./src/Selector.vhd" 4 selector
+~A 1 "./src/Selector.vhd" 20 logic
+~E 1 "./src/Simulator.vhd" 6 sim
+~A 1 "./src/Simulator.vhd" 13 def

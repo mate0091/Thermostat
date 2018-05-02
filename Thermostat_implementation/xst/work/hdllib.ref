@@ -1,0 +1,4 @@
+AR freq_div_1hz logic "B:/projektek/Digital System Design/Thermostat/Thermostat_implementation/frequency_div.vhd" sub00/vhpl01 1525256691
+AR clk_div_test logic "B:/projektek/Digital System Design/Thermostat/Thermostat_implementation/clock_div_test.vhd" sub00/vhpl03 1525256693
+EN clk_div_test NULL "B:/projektek/Digital System Design/Thermostat/Thermostat_implementation/clock_div_test.vhd" sub00/vhpl02 1525256692
+EN freq_div_1hz NULL "B:/projektek/Digital System Design/Thermostat/Thermostat_implementation/frequency_div.vhd" sub00/vhpl00 1525256690

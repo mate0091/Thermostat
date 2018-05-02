@@ -1,0 +1,71 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=1
+Current Config=compile
+
+[Configurations]
+compile=Main_units
+
+[Library]
+Main_units=.\Main_units.lib
+
+[$LibMap$]
+Main_units=.
+Active_lib=
+
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+SYNTH_TOOL=<none>
+IMPL_TOOL=<none>
+FAMILY=
+FLOWTOOLS=ONLY_IMPL
+FUNC_LIB=Main_units
+
+[IMPLEMENTATION]
+UCF=
+
+[HierarchyViewer]
+SortInfo=u
+HierarchyInformation=clk_div_test|logic|0 freq_div|logic|0 prog|def|0
+ShowHide=ShowTopLevel
+Selected=
+
+[Files]
+/Simulator.vhd=-1
+/sim_test.awf=-1
+/hours_minutes.vhd=-1
+/h_m_test.awf=-1
+/prog.vhd=-1
+/prog_sim.awf=-1
+/debounce.vhd=-1
+/BCD_to_7seg.vhd=-1
+/helper_functions.vhd=-1
+/clock_divider.vhd=-1
+/segmentdriver.vhd=-1
+/frequency_div.vhd=-1
+/clock_div_test.vhd=-1
+/freq_div_1hz_test.awf=-1
+/test.awf=-1
+/Selector.vhd=-1
+
+[Files.Data]
+.\src\Simulator.vhd=VHDL Source Code
+.\src\sim_test.awf=Waveform File
+.\src\hours_minutes.vhd=VHDL Source Code
+.\src\h_m_test.awf=Waveform File
+.\src\prog.vhd=VHDL Source Code
+.\src\prog_sim.awf=Waveform File
+.\src\debounce.vhd=VHDL Source Code
+.\src\BCD_to_7seg.vhd=VHDL Source Code
+.\src\helper_functions.vhd=VHDL Source Code
+.\src\clock_divider.vhd=VHDL Source Code
+.\src\segmentdriver.vhd=VHDL Source Code
+.\src\frequency_div.vhd=VHDL Source Code
+.\src\clock_div_test.vhd=VHDL Source Code
+.\src\freq_div_1hz_test.awf=Waveform File
+.\src\test.awf=Waveform File
+.\src\Selector.vhd=VHDL Source Code
+
